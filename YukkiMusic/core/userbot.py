@@ -59,7 +59,7 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("GeezSupport")
                 await self.one.join_chat("ramsupportt")
-                await self.one.join_chat("YukkiSupport")
+                await self.one.join_chat("ayojoiin")
             except:
                 pass
             assistants.append(1)
