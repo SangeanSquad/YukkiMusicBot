@@ -43,7 +43,9 @@ LOG_GROUP_ID = -1001624719241
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
-OWNER_ID = 5181183910
+OWNER_ID = list(
+    map(int, getenv("OWNER_ID", "5181183910").split())
+)
 # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
