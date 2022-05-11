@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = getenv("API_HASH" or "")
-API_HASH = getenv("API_HASH" or "")
+API_ID = getenv("API_HASH" or "5655010")
+API_HASH = getenv("API_HASH" or "137d3d82e79c41f113ba640fc3cb2dfd")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN" or "")
+BOT_TOKEN = getenv("BOT_TOKEN" or "5346548964:AAEUk7Y30KAKMcJ2LeQhG92RI8QO-5tSTJQ")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI" or "")
+MONGO_DB_URI = getenv("MONGO_DB_URI" or "mongodb+srv://musik:musik@cluster0.yl4i8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -40,11 +40,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = -1001624719241
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME" or "Geez|RAM")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5181183910").split())
 )
 # Input type must be interger
 
