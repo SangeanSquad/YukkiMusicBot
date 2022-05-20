@@ -114,3 +114,12 @@ Config vars are basically the variables which configure or modify bot to functio
 2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
 3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
 4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+
+
+
+
+137d3d82e79c41f113ba640fc3cb2dfd
+
+
+
+BQBec-bpTAvEQxjC9dFQa9-AvWM-Yuqva4LEyhNIhOAEJUyVZ7-vW_1wZcH9kCF5ZDSTGxNdgMzmwFvFO1fbnwUFUMQ2PcHcbsKbZ4uotmtRo-vMBSoZmAaHiNvylyWVGGHou-0bgjLsbf9BjAhyAEZnGML_PQah3o03yUUtp1S4OevuDPqY6S3zmfuMRjPxYv6x9AKA8HJ_XHTzfY6ldwk-EAchfZmEWTvVBdNPsbWwCKbdDhdwPrOXEU2Qmbhqht5SEVa2FKhMI6w69bRPW57GMRV6fCrTSoF4kysImoOne-GcIGM-7UvGOWaZwr139q7vHDk_K0o0GAVjC1_M-oqPfDQWcgA
