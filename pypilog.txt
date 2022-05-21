@@ -1,0 +1,338 @@
+Requirement already satisfied: pip in /opt/virtualenvs/python3/lib/python3.8/site-packages (21.2.dev0)
+Collecting pip
+  Downloading pip-22.1.1-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.dev0
+    Uninstalling pip-21.2.dev0:
+      Successfully uninstalled pip-21.2.dev0
+Successfully installed pip-22.1.1
+Collecting aiofiles
+  Using cached aiofiles-0.8.0-py3-none-any.whl
+Requirement already satisfied: aiohttp in /opt/virtualenvs/python3/lib/python3.8/site-packages (from -r requirements.txt (line 2)) (3.7.4.post0)
+Collecting aiohttp
+  Using cached aiohttp-3.8.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Collecting asyncio
+  Using cached asyncio-3.4.3-py3-none-any.whl
+Collecting dnspython
+  Using cached dnspython-2.2.1-py3-none-any.whl
+Collecting ffmpeg-python
+  Using cached ffmpeg_python-0.2.0-py3-none-any.whl
+Collecting gitpython
+  Using cached GitPython-3.1.27-py3-none-any.whl
+Collecting hachoir
+  Using cached hachoir-3.1.3-py3-none-any.whl
+Collecting heroku3
+  Using cached heroku3-5.1.4.tar.gz (160 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting lyricsgenius
+  Using cached lyricsgenius-3.0.1-py3-none-any.whl
+Collecting motor
+  Using cached motor-3.0.0-py3-none-any.whl
+Requirement already satisfied: pillow in /opt/virtualenvs/python3/lib/python3.8/site-packages (from -r requirements.txt (line 11)) (8.3.2)
+Collecting pillow
+  Downloading Pillow-9.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 29.4 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-5.9.1-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (284 kB)
+     ━━━━━━━━━━━━━━━━━━━━━ 284.7/284.7 kB 37.7 MB/s eta 0:00:00
+Collecting py-tgcalls==0.8.6
+  Using cached py_tgcalls-0.8.6-cp38-cp38-manylinux2014_x86_64.whl
+Collecting pykeyboard
+  Using cached pykeyboard-0.1.5.tar.gz (7.5 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pyrogram==1.4.16
+  Using cached Pyrogram-1.4.16-py3-none-any.whl
+Collecting python-dotenv
+  Using cached python_dotenv-0.20.0-py3-none-any.whl
+Collecting pyyaml==5.3.1
+  Using cached PyYAML-5.3.1.tar.gz (269 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: requests in /opt/virtualenvs/python3/lib/python3.8/site-packages (from -r requirements.txt (line 18)) (2.26.0)
+Collecting requests
+  Using cached requests-2.27.1-py2.py3-none-any.whl
+Collecting speedtest-cli
+  Using cached speedtest_cli-2.1.3-py2.py3-none-any.whl
+Collecting spotipy
+  Using cached spotipy-2.19.0-py3-none-any.whl
+Collecting tgcrypto
+  Using cached TgCrypto-1.2.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Collecting wget
+  Using cached wget-3.2.zip (10 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting youtube-search
+  Using cached youtube_search-2.1.0-py3-none-any.whl
+Collecting youtube-search-python
+  Downloading youtube_search_python-1.6.5-py3-none-any.whl (88 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━ 89.0/89.0 kB 18.6 MB/s eta 0:00:00
+Collecting yt-dlp
+  Downloading yt_dlp-2022.5.18-py2.py3-none-any.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 51.6 MB/s eta 0:00:00
+Collecting pyaes==1.6.1
+  Using cached pyaes-1.6.1.tar.gz (28 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pysocks==1.7.1
+  Using cached PySocks-1.7.1-py3-none-any.whl
+Requirement already satisfied: attrs>=17.3.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp->-r requirements.txt (line 2)) (21.2.0)
+Collecting frozenlist>=1.1.1
+  Using cached frozenlist-1.3.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Requirement already satisfied: charset-normalizer<3.0,>=2.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp->-r requirements.txt (line 2)) (2.0.4)
+Requirement already satisfied: multidict<7.0,>=4.5 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp->-r requirements.txt (line 2)) (5.1.0)
+Collecting async-timeout<5.0,>=4.0.0a3
+  Using cached async_timeout-4.0.2-py3-none-any.whl
+Collecting aiosignal>=1.1.2
+  Using cached aiosignal-1.2.0-py3-none-any.whl
+Requirement already satisfied: yarl<2.0,>=1.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp->-r requirements.txt (line 2)) (1.6.3)
+Requirement already satisfied: future in /opt/virtualenvs/python3/lib/python3.8/site-packages (from ffmpeg-python->-r requirements.txt (line 5)) (0.18.2)
+Collecting gitdb<5,>=4.0.1
+  Using cached gitdb-4.0.9-py3-none-any.whl
+Requirement already satisfied: python-dateutil>=2.6.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from heroku3->-r requirements.txt (line 8)) (2.8.2)
+Collecting beautifulsoup4>=4.6.0
+  Using cached beautifulsoup4-4.11.1-py3-none-any.whl
+Collecting pymongo<5,>=4.1
+  Using cached pymongo-4.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Requirement already satisfied: idna<4,>=2.5 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from requests->-r requirements.txt (line 18)) (3.2)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from requests->-r requirements.txt (line 18)) (2021.5.30)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from requests->-r requirements.txt (line 18)) (1.26.6)
+Requirement already satisfied: six>=1.15.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from spotipy->-r requirements.txt (line 20)) (1.16.0)
+Collecting httpx>=0.14.2
+  Using cached httpx-0.22.0-py3-none-any.whl
+Collecting mutagen
+  Using cached mutagen-1.45.1-py3-none-any.whl
+Collecting websockets
+  Using cached websockets-10.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Collecting pycryptodomex
+  Using cached pycryptodomex-3.14.1-cp35-abi3-manylinux2010_x86_64.whl
+Collecting brotli
+  Using cached Brotli-1.0.9-cp38-cp38-manylinux1_x86_64.whl
+Collecting soupsieve>1.2
+  Using cached soupsieve-2.3.2.post1-py3-none-any.whl
+Collecting smmap<6,>=3.0.1
+  Using cached smmap-5.0.0-py3-none-any.whl
+Collecting rfc3986[idna2008]<2,>=1.3
+  Using cached rfc3986-1.5.0-py2.py3-none-any.whl
+Collecting httpcore<0.15.0,>=0.14.5
+  Using cached httpcore-0.14.7-py3-none-any.whl
+Collecting sniffio
+  Using cached sniffio-1.2.0-py3-none-any.whl
+Collecting anyio==3.*
+  Downloading anyio-3.6.1-py3-none-any.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━ 80.6/80.6 kB 17.1 MB/s eta 0:00:00
+Collecting h11<0.13,>=0.11
+  Using cached h11-0.12.0-py3-none-any.whl
+Building wheels for collected packages: pyyaml, pyaes, heroku3, pykeyboard, wget
+  Building wheel for pyyaml (setup.py): started
+  Building wheel for pyyaml (setup.py): finished with status 'done'
+  Created wheel for pyyaml: filename=PyYAML-5.3.1-cp38-cp38-linux_x86_64.whl size=44618 sha256=cfa55dfc0eb288ebb27938b2c583f2ec2a238cc7382411302ef6139c3583d121
+  Stored in directory: /home/runner/.cache/pip/wheels/13/90/db/290ab3a34f2ef0b5a0f89235dc2d40fea83e77de84ed2dc05c
+  Building wheel for pyaes (setup.py): started
+  Building wheel for pyaes (setup.py): finished with status 'done'
+  Created wheel for pyaes: filename=pyaes-1.6.1-py3-none-any.whl size=26344 sha256=f2697c9cad8db87f4646f1b23f629d80bea3c50b5aeb51921eff9348119ac648
+  Stored in directory: /home/runner/.cache/pip/wheels/aa/ca/9c/8a3c00512585c703edc457db81c066b9609d76758c74f72ac6
+  Building wheel for heroku3 (setup.py): started
+  Building wheel for heroku3 (setup.py): finished with status 'done'
+  Created wheel for heroku3: filename=heroku3-5.1.4-py2.py3-none-any.whl size=161475 sha256=1be2e571302d83bf230d042c8a4353ee574e6397b569644fdcba15482852daa5
+  Stored in directory: /home/runner/.cache/pip/wheels/bd/3d/6c/a681e08009c4fafe5e068310b7f89233c4b2e76e86c48fa62d
+  Building wheel for pykeyboard (setup.py): started
+  Building wheel for pykeyboard (setup.py): finished with status 'done'
+  Created wheel for pykeyboard: filename=pykeyboard-0.1.5-py3-none-any.whl size=7410 sha256=f33aad6598074877fe1339f08227d88ae3ff705d8dcac95f39e8bfd893c55142
+  Stored in directory: /home/runner/.cache/pip/wheels/13/d9/b3/ed04dab530286958760c5426a1d5390ad20e1c2031e384365b
+  Building wheel for wget (setup.py): started
+  Building wheel for wget (setup.py): finished with status 'done'
+  Created wheel for wget: filename=wget-3.2-py3-none-any.whl size=9679 sha256=a854c246c30ea14a9e663351b4c2db6116b9342917be51749b71611d605a6d64
+  Stored in directory: /home/runner/.cache/pip/wheels/bd/a8/c3/3cf2c14a1837a4e04bd98631724e81f33f462d86a1d895fae0
+Successfully built pyyaml pyaes heroku3 pykeyboard wget
+Installing collected packages: wget, speedtest-cli, rfc3986, pyaes, hachoir, brotli, asyncio, websockets, tgcrypto, soupsieve, sniffio, smmap, requests, pyyaml, python-dotenv, pysocks, pymongo, pycryptodomex, psutil, pillow, mutagen, h11, frozenlist, ffmpeg-python, dnspython, async-timeout, aiofiles, yt-dlp, youtube-search, spotipy, pyrogram, motor, heroku3, gitdb, beautifulsoup4, anyio, aiosignal, pykeyboard, lyricsgenius, httpcore, gitpython, aiohttp, py-tgcalls, httpx, youtube-search-python
+  Attempting uninstall: requests
+    Found existing installation: requests 2.26.0
+    Uninstalling requests-2.26.0:
+      Successfully uninstalled requests-2.26.0
+  Attempting uninstall: pillow
+    Found existing installation: Pillow 8.3.2
+    Uninstalling Pillow-8.3.2:
+      Successfully uninstalled Pillow-8.3.2
+  Attempting uninstall: async-timeout
+    Found existing installation: async-timeout 3.0.1
+    Uninstalling async-timeout-3.0.1:
+      Successfully uninstalled async-timeout-3.0.1
+  Attempting uninstall: aiohttp
+    Found existing installation: aiohttp 3.7.4.post0
+    Uninstalling aiohttp-3.7.4.post0:
+      Successfully uninstalled aiohttp-3.7.4.post0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+pyquil 1.9.0 requires typing>=3.6, which is not installed.
+Successfully installed aiofiles-0.8.0 aiohttp-3.8.1 aiosignal-1.2.0 anyio-3.6.1 async-timeout-4.0.2 asyncio-3.4.3 beautifulsoup4-4.11.1 brotli-1.0.9 dnspython-2.2.1 ffmpeg-python-0.2.0 frozenlist-1.3.0 gitdb-4.0.9 gitpython-3.1.27 h11-0.12.0 hachoir-3.1.3 heroku3-5.1.4 httpcore-0.14.7 httpx-0.22.0 lyricsgenius-3.0.1 motor-3.0.0 mutagen-1.45.1 pillow-9.1.1 psutil-5.9.1 py-tgcalls-0.8.6 pyaes-1.6.1 pycryptodomex-3.14.1 pykeyboard-0.1.5 pymongo-4.1.1 pyrogram-1.4.16 pysocks-1.7.1 python-dotenv-0.20.0 pyyaml-5.3.1 requests-2.27.1 rfc3986-1.5.0 smmap-5.0.0 sniffio-1.2.0 soupsieve-2.3.2.post1 speedtest-cli-2.1.3 spotipy-2.19.0 tgcrypto-1.2.3 websockets-10.3 wget-3.2 youtube-search-2.1.0 youtube-search-python-1.6.5 yt-dlp-2022.5.18
+Requirement already satisfied: pip in /opt/virtualenvs/python3/lib/python3.8/site-packages (21.2.dev0)
+Collecting pip
+  Downloading pip-22.1.1-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 21.2.dev0
+    Uninstalling pip-21.2.dev0:
+      Successfully uninstalled pip-21.2.dev0
+Successfully installed pip-22.1.1
+Collecting aiofiles
+  Using cached aiofiles-0.8.0-py3-none-any.whl
+Requirement already satisfied: aiohttp in /opt/virtualenvs/python3/lib/python3.8/site-packages (from -r requirements.txt (line 2)) (3.7.4.post0)
+Collecting aiohttp
+  Using cached aiohttp-3.8.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Collecting asyncio
+  Using cached asyncio-3.4.3-py3-none-any.whl
+Collecting dnspython
+  Using cached dnspython-2.2.1-py3-none-any.whl
+Collecting ffmpeg-python
+  Using cached ffmpeg_python-0.2.0-py3-none-any.whl
+Collecting gitpython
+  Using cached GitPython-3.1.27-py3-none-any.whl
+Collecting hachoir
+  Using cached hachoir-3.1.3-py3-none-any.whl
+Collecting heroku3
+  Using cached heroku3-5.1.4.tar.gz (160 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting lyricsgenius
+  Using cached lyricsgenius-3.0.1-py3-none-any.whl
+Collecting motor
+  Using cached motor-3.0.0-py3-none-any.whl
+Requirement already satisfied: pillow in /opt/virtualenvs/python3/lib/python3.8/site-packages (from -r requirements.txt (line 11)) (8.3.2)
+Collecting pillow
+  Downloading Pillow-9.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 15.3 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-5.9.1-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (284 kB)
+     ━━━━━━━━━━━━━━━━━━━━━ 284.7/284.7 kB 35.9 MB/s eta 0:00:00
+Collecting py-tgcalls==0.8.6
+  Using cached py_tgcalls-0.8.6-cp38-cp38-manylinux2014_x86_64.whl
+Collecting pykeyboard
+  Using cached pykeyboard-0.1.5.tar.gz (7.5 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pyrogram==1.4.16
+  Using cached Pyrogram-1.4.16-py3-none-any.whl
+Collecting python-dotenv
+  Using cached python_dotenv-0.20.0-py3-none-any.whl
+Collecting pyyaml==5.3.1
+  Using cached PyYAML-5.3.1.tar.gz (269 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: requests in /opt/virtualenvs/python3/lib/python3.8/site-packages (from -r requirements.txt (line 18)) (2.26.0)
+Collecting requests
+  Using cached requests-2.27.1-py2.py3-none-any.whl
+Collecting speedtest-cli
+  Using cached speedtest_cli-2.1.3-py2.py3-none-any.whl
+Collecting spotipy
+  Using cached spotipy-2.19.0-py3-none-any.whl
+Collecting tgcrypto
+  Using cached TgCrypto-1.2.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Collecting wget
+  Using cached wget-3.2.zip (10 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting youtube-search
+  Using cached youtube_search-2.1.0-py3-none-any.whl
+Collecting youtube-search-python
+  Downloading youtube_search_python-1.6.5-py3-none-any.whl (88 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━ 89.0/89.0 kB 30.2 MB/s eta 0:00:00
+Collecting yt-dlp
+  Downloading yt_dlp-2022.5.18-py2.py3-none-any.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 33.8 MB/s eta 0:00:00
+Collecting pyaes==1.6.1
+  Using cached pyaes-1.6.1.tar.gz (28 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pysocks==1.7.1
+  Using cached PySocks-1.7.1-py3-none-any.whl
+Requirement already satisfied: attrs>=17.3.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp->-r requirements.txt (line 2)) (21.2.0)
+Collecting frozenlist>=1.1.1
+  Using cached frozenlist-1.3.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Requirement already satisfied: multidict<7.0,>=4.5 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp->-r requirements.txt (line 2)) (5.1.0)
+Requirement already satisfied: yarl<2.0,>=1.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp->-r requirements.txt (line 2)) (1.6.3)
+Collecting aiosignal>=1.1.2
+  Using cached aiosignal-1.2.0-py3-none-any.whl
+Requirement already satisfied: charset-normalizer<3.0,>=2.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from aiohttp->-r requirements.txt (line 2)) (2.0.4)
+Collecting async-timeout<5.0,>=4.0.0a3
+  Using cached async_timeout-4.0.2-py3-none-any.whl
+Requirement already satisfied: future in /opt/virtualenvs/python3/lib/python3.8/site-packages (from ffmpeg-python->-r requirements.txt (line 5)) (0.18.2)
+Collecting gitdb<5,>=4.0.1
+  Using cached gitdb-4.0.9-py3-none-any.whl
+Requirement already satisfied: python-dateutil>=2.6.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from heroku3->-r requirements.txt (line 8)) (2.8.2)
+Collecting beautifulsoup4>=4.6.0
+  Using cached beautifulsoup4-4.11.1-py3-none-any.whl
+Collecting pymongo<5,>=4.1
+  Using cached pymongo-4.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Requirement already satisfied: certifi>=2017.4.17 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from requests->-r requirements.txt (line 18)) (2021.5.30)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from requests->-r requirements.txt (line 18)) (1.26.6)
+Requirement already satisfied: idna<4,>=2.5 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from requests->-r requirements.txt (line 18)) (3.2)
+Requirement already satisfied: six>=1.15.0 in /opt/virtualenvs/python3/lib/python3.8/site-packages (from spotipy->-r requirements.txt (line 20)) (1.16.0)
+Collecting httpx>=0.14.2
+  Using cached httpx-0.22.0-py3-none-any.whl
+Collecting brotli
+  Using cached Brotli-1.0.9-cp38-cp38-manylinux1_x86_64.whl
+Collecting websockets
+  Using cached websockets-10.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Collecting pycryptodomex
+  Using cached pycryptodomex-3.14.1-cp35-abi3-manylinux2010_x86_64.whl
+Collecting mutagen
+  Using cached mutagen-1.45.1-py3-none-any.whl
+Collecting soupsieve>1.2
+  Using cached soupsieve-2.3.2.post1-py3-none-any.whl
+Collecting smmap<6,>=3.0.1
+  Using cached smmap-5.0.0-py3-none-any.whl
+Collecting httpcore<0.15.0,>=0.14.5
+  Using cached httpcore-0.14.7-py3-none-any.whl
+Collecting sniffio
+  Using cached sniffio-1.2.0-py3-none-any.whl
+Collecting rfc3986[idna2008]<2,>=1.3
+  Using cached rfc3986-1.5.0-py2.py3-none-any.whl
+Collecting h11<0.13,>=0.11
+  Using cached h11-0.12.0-py3-none-any.whl
+Collecting anyio==3.*
+  Downloading anyio-3.6.1-py3-none-any.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━ 80.6/80.6 kB 27.2 MB/s eta 0:00:00
+Building wheels for collected packages: pyyaml, pyaes, heroku3, pykeyboard, wget
+  Building wheel for pyyaml (setup.py): started
+  Building wheel for pyyaml (setup.py): finished with status 'done'
+  Created wheel for pyyaml: filename=PyYAML-5.3.1-cp38-cp38-linux_x86_64.whl size=44618 sha256=5988010d25cf5def1c9ff0929cd3b8838d50a366db007b7088b71764c5b183b3
+  Stored in directory: /home/runner/.cache/pip/wheels/13/90/db/290ab3a34f2ef0b5a0f89235dc2d40fea83e77de84ed2dc05c
+  Building wheel for pyaes (setup.py): started
+  Building wheel for pyaes (setup.py): finished with status 'done'
+  Created wheel for pyaes: filename=pyaes-1.6.1-py3-none-any.whl size=26344 sha256=936374f272386535493193f0eabbb4df85ed097b3598c8c843fa31013116c8a1
+  Stored in directory: /home/runner/.cache/pip/wheels/aa/ca/9c/8a3c00512585c703edc457db81c066b9609d76758c74f72ac6
+  Building wheel for heroku3 (setup.py): started
+  Building wheel for heroku3 (setup.py): finished with status 'done'
+  Created wheel for heroku3: filename=heroku3-5.1.4-py2.py3-none-any.whl size=161475 sha256=753908951d78d0120ac46521db296d75ba46b380b85cc0edcf25186e3f97971c
+  Stored in directory: /home/runner/.cache/pip/wheels/bd/3d/6c/a681e08009c4fafe5e068310b7f89233c4b2e76e86c48fa62d
+  Building wheel for pykeyboard (setup.py): started
+  Building wheel for pykeyboard (setup.py): finished with status 'done'
+  Created wheel for pykeyboard: filename=pykeyboard-0.1.5-py3-none-any.whl size=7410 sha256=97463371fee3931d95dc34913cbf6857dffa6a50adaf9637c0b63c52fa563c18
+  Stored in directory: /home/runner/.cache/pip/wheels/13/d9/b3/ed04dab530286958760c5426a1d5390ad20e1c2031e384365b
+  Building wheel for wget (setup.py): started
+  Building wheel for wget (setup.py): finished with status 'done'
+  Created wheel for wget: filename=wget-3.2-py3-none-any.whl size=9679 sha256=3c9acae4c79c7c9163e92b0502b3cec77563c041f7fd1c5946c3520f434fd8a3
+  Stored in directory: /home/runner/.cache/pip/wheels/bd/a8/c3/3cf2c14a1837a4e04bd98631724e81f33f462d86a1d895fae0
+Successfully built pyyaml pyaes heroku3 pykeyboard wget
+Installing collected packages: wget, speedtest-cli, rfc3986, pyaes, hachoir, brotli, asyncio, websockets, tgcrypto, soupsieve, sniffio, smmap, requests, pyyaml, python-dotenv, pysocks, pymongo, pycryptodomex, psutil, pillow, mutagen, h11, frozenlist, ffmpeg-python, dnspython, async-timeout, aiofiles, yt-dlp, youtube-search, spotipy, pyrogram, motor, heroku3, gitdb, beautifulsoup4, anyio, aiosignal, pykeyboard, lyricsgenius, httpcore, gitpython, aiohttp, py-tgcalls, httpx, youtube-search-python
+  Attempting uninstall: requests
+    Found existing installation: requests 2.26.0
+    Uninstalling requests-2.26.0:
+      Successfully uninstalled requests-2.26.0
+  Attempting uninstall: pillow
+    Found existing installation: Pillow 8.3.2
+    Uninstalling Pillow-8.3.2:
+      Successfully uninstalled Pillow-8.3.2
+  Attempting uninstall: async-timeout
+    Found existing installation: async-timeout 3.0.1
+    Uninstalling async-timeout-3.0.1:
+      Successfully uninstalled async-timeout-3.0.1
+  Attempting uninstall: aiohttp
+    Found existing installation: aiohttp 3.7.4.post0
+    Uninstalling aiohttp-3.7.4.post0:
+      Successfully uninstalled aiohttp-3.7.4.post0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+pyquil 1.9.0 requires typing>=3.6, which is not installed.
+Successfully installed aiofiles-0.8.0 aiohttp-3.8.1 aiosignal-1.2.0 anyio-3.6.1 async-timeout-4.0.2 asyncio-3.4.3 beautifulsoup4-4.11.1 brotli-1.0.9 dnspython-2.2.1 ffmpeg-python-0.2.0 frozenlist-1.3.0 gitdb-4.0.9 gitpython-3.1.27 h11-0.12.0 hachoir-3.1.3 heroku3-5.1.4 httpcore-0.14.7 httpx-0.22.0 lyricsgenius-3.0.1 motor-3.0.0 mutagen-1.45.1 pillow-9.1.1 psutil-5.9.1 py-tgcalls-0.8.6 pyaes-1.6.1 pycryptodomex-3.14.1 pykeyboard-0.1.5 pymongo-4.1.1 pyrogram-1.4.16 pysocks-1.7.1 python-dotenv-0.20.0 pyyaml-5.3.1 requests-2.27.1 rfc3986-1.5.0 smmap-5.0.0 sniffio-1.2.0 soupsieve-2.3.2.post1 speedtest-cli-2.1.3 spotipy-2.19.0 tgcrypto-1.2.3 websockets-10.3 wget-3.2 youtube-search-2.1.0 youtube-search-python-1.6.5 yt-dlp-2022.5.18
